@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.INFO, filename="bot_log.csv", filemode="w",
 
 MSG = "{}, choose an action:"
 
-bot = Bot("5873069701:AAHypQc7tY8K5--o6yHe3BddYs5FsZdeyhI")
+bot = Bot("")
 dp = Dispatcher(bot=bot)
 
 @dp.message_handler(commands=['start'])
